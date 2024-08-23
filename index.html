@@ -5,6 +5,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Darshil @ CMU</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles for the arrows */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: transparent;
+      background-size: 100%, 100%;
+      border-radius: 0;
+      border: none;
+      width: 20px;
+      height: 20px;
+    }
+
+    .carousel-control-prev-icon {
+      background-image: url('data:image/svg+xml,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23666666" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M4.5 0L1 4l3.5 4V0z"%3E%3C/path%3E%3C/svg%3E');
+    }
+
+    .carousel-control-next-icon {
+      background-image: url('data:image/svg+xml,%3Csvg xmlns%3D"http://www.w3.org/2000/svg" fill%3D"%23666666" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M3.5 0L7 4 3.5 8V0z"%3E%3C/path%3E%3C/svg%3E');
+    }
+  </style>
   <link rel="stylesheet" href="https://stackedit.io/style.css" />
 </head>
 
@@ -104,12 +125,46 @@ January 2024 - Present<br>
 <li>Baseline model comprises two Bi-LSTMs and Dense layers</li>
 <li>Provided reports on model enhancements, exploring self-training with unlabelled data, and detailed resources</li>
 </ul>
+  <div class="container mt-5">
+    <!-- Carousel -->
+    <div id="textCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center">
+            <p class="text-center w-75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula urna ut felis malesuada, sed volutpat leo hendrerit. Sed auctor arcu a massa sagittis, id congue lacus bibendum. Aenean facilisis arcu vitae nulla condimentum, id cursus tortor faucibus.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+            <p class="text-center w-75">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur varius purus id urna condimentum, a bibendum risus posuere. Vivamus pharetra ligula non tellus convallis, nec lacinia nunc aliquet.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+            <p class="text-center w-75">Sed cursus urna nec libero dignissim, vel pulvinar est bibendum. Ut placerat leo sit amet lacus gravida, eget faucibus eros iaculis. Nulla facilisi. Phasellus sed metus at nulla tincidunt blandit non nec nisi.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#textCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#textCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
 <h2 id="get-in-touch">Get In Touch!</h2>
 <p><a href="https://www.linkedin.com/in/darshilkaneria/" target="_blank"><img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" style="width: 25px; height: 25px; margin-right: 3px;">LinkedIn</a><br>
 &nbsp;<br>
 <a href="https://github.com/darshil-kaneria" target="_blank"><img src="https://img.icons8.com/?size=100&id=zuHqpgzrusU5&format=png&color=000000" style="width: 25px; height: 25px; margin-right: 3px;">GitHub</a></p>
 <p>✉️ Email - Username = dkaneria, Domain = <a href="http://cmu.edu">cmu.edu</a></p>
 </div>
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
